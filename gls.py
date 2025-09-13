@@ -10,8 +10,9 @@ def plus_e(a,b):
 def mse_loss(a,b):
  return  (a-b)**2
 
-def relu(a):
- return 0 if a < 0 else a
+
+def sums(a,b):
+ return a+b
 
 def sqr(a,b):
  return a**2, b**2
